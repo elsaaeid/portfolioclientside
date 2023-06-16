@@ -1,0 +1,106 @@
+.form-content {
+    background-image: url("../assets/register-bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 130vh;
+}
+.form_data {
+    max-width: 550px;
+    margin: auto;
+    padding: 35px 10px;
+    box-shadow: 0 0 15px -10px #2d3748;
+    border-radius: 10px;
+    background-color: var(--color-white);
+}
+
+.form_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_data h1{
+    font-size: 20px;
+    color: var(--color-bg-variant);
+}
+
+.form_data p{
+    color: var(--color-bg-variant);
+    font-size: 13px;
+    margin-top:9px;
+}
+
+.form_data form{
+    margin-top: 0px;
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.form_data form .form_input input{
+    width: 100%;
+    padding: 11px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    
+}
+
+.form_data form .form_input label{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form_input .two{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.form_data form .form_input input::placeholder{
+    color: var(--color-bg-variant);
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+.form_input .showpass{
+    position: absolute;
+    right: 0;
+    top: -8px;
+    padding: 7px 10px;
+    margin-right: 5px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-bg-variant);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form .btn{
+    display:block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color:var(--color-bg-variant);
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+
+form .btn:hover{
+    background-color: var(--color-primary);
+}
+form .btnload{
+    background-color: var(--color-primary);
+}
+
+.form_data form p{
+    text-align: center;
+    margin-top: 20px;
+}
